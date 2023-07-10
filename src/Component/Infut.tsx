@@ -17,7 +17,7 @@ const Infut: React.FC<props> = ({ todo, settodo, handdelAdd }: props) => {
         inputRef.current?.blur();
       }}
     >
-      <input
+      <input 
         ref={inputRef}
         type="text"
         placeholder="Enter A task"
