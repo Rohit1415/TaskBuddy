@@ -101,11 +101,14 @@
     font-size: 25px;
     cursor: pointer;
 }
-@media  (max-width: 1200px)
+.remove{
+    background-color: rgb(235, 103, 80);
+}
+@media  (max-width: 1100px)
 {
-    .todos_single
+    .todos
     {
-        width: 40%;
+        width: 45%;
     }
 }
 @media  (max-width: 700px)
@@ -114,12 +117,18 @@
     {
         width: 95%;
     }
-    .todos{
-        width: 95%;
-    }
-    .todos_single
+    .todos
     {
-        margin-top: 10px;
-        width: 100%;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .todos_heading
+    {
+        font-size: 15px;
+    }
+    .todo-container
+    {
+        width: 95%;
+        flex-direction: column;
     }
 }
