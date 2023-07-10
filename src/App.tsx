@@ -21,7 +21,7 @@ const App: React.FC = () => {
   console.log(todos);
   return (
     <div className="App">
-      <p className="heading">TO-DO LIST</p>
+      <p className="heading">TaskBuddy</p>
       <Infut todo={todo} settodo={settodo} handdelAdd={handdelAdd} />
       <Todolist todos={todos} settodos={settodos} />
     </div>
