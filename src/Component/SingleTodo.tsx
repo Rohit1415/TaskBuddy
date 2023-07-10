@@ -65,10 +65,12 @@ const SingleTodo = ({ todo, todos, settodos }: Props) => {
             }
           }}
         >
-          <AiFillEdit />
+          <AiFillEdit
+           />
         </span>
         <span className="icon_single" onClick={() => handelDelete(todo.id)}>
-          <AiFillDelete />
+          <AiFillDelete 
+          />
         </span>
         <span className="icon_single" onClick={() => handelDone(todo.id)}>
           <MdDone />
